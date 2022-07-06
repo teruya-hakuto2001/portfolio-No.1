@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/fea7b21f71.js" crossorigin="anonymous"></script>
+    <title>sample</title>
+</head>
+<body>
+    <header>
+        <div id="header_menu">
+            <div id="button_head"><a href="./recruit.html">RECRUIT<br>採用情報</a></div>
+            <div id="button_head"><a href="./contact.html">CONTACT<br>お問い合わせ</a></div>
+        </div>
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn" onclick="change_open()"><span></span></label>
+        </div>
+    </header>
+        <div id="modal_bgc" class="close"  onclick="change_close()">
+            <div id="modal_content" >
+                <button id="modal_close">X</button>
+                <ul>
+                    <li><a href="">TOP</a></li>
+                    <li><a href="">WORKS</a></li>
+                    <li><a href="">TOP</a></li>
+                    <li><a href="">TOP</a></li>
+                    <li><a href="">TOP</a></li>
+                </ul>
+            </div>
+        </div>
+    
+    <div id="sub_head">
+        <img src="./image/logo.jpg" srcset="./image/logo_320.jpg 640w,./image/logo.jpg 1280w">
+        <p class="main_p">Lorem ipsum dolor sit amet, consetetur</p>
+        <p class="sub_p">Lorem ipsum dolor sit amet, consetetur</p>
+        <div id="flex_box">
+            <div class="flex_item">ゲーム</div>
+            <div class="flex_item">アプリ</div>
+            <div class="flex_item">オリジナルグッズ</div>
+            <div class="flex_item">コミック</div>
+            <div class="flex_item">各種LP</div>
+        </div>
+        <button id="works"><a href="">仕事のご依頼・ご相談<br>こちらから</a></button>
+        <div id="scroll">
+            <p>scroll</p>
+            <span></span>
+        </div>
+    </div>
+     <div class="content_gray"> 
+        <div class="title_grey">
+            <h2>WORKS</h2>
+            <hr>
+             <p>制作事例</p>
+         </div>
+         <div id="flex_works">
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+            <div class="works_item"><a href=""><img src="./image/demo.jpg"></a></div>
+         </div>
+        <div id="button_more">
+            <a href="">more</a>
+        </div>
+        <div id="button_info">
+            <a href="">お問い合わせ</a>
+        </div>
+    </div>
+    <div class="content_green">
+        <div class="title_white">
+            <h2>COMPANY</h2>
+            <hr>
+             <p>会社概要</p>
+        </div>
+        <div id="company_info">
+            <div class="info_content">
+                <p class="green">社名</p>
+                <p>サンプルサイト</p>
+            </div>
+            <hr>
+            <div class="info_content">
+                <p class="green">創業</p>
+                <p>2022年6月</p>
+            </div>
+            <hr>
+            <div class="info_content">
+                <p class="green">スタッフ</p>
+                <p>6名</p>
+            </div>
+            <hr>
+            <div class="info_content">
+                <p class="green">所在地</p>
+                <p>〒517-0025 大阪府貝塚市脇浜1-72-9</p>
+            </div>
+            <hr>
+            <div class="info_content">
+                <p class="green">TEL</p>
+                <p>0599-39-4616</p>
+            </div>
+            <hr>
+            <div class="info_content">
+                <p class="green">メール</p>
+                <p>keisuke-kawano@scuba-diver.jp </p>
+            </div>
+        </div>
+    </div>
+    <div class="content_gray">
+        <div class="title_grey">
+            <h2>RECRUIT</h2>
+            <hr>
+             <p>採用情報</p>
+        </div>
+        <div id="recruit">
+            <p>一緒に働く仲間を探しています。
+               <br>この業種にご興味のある方は
+               <br>下記のフォームからご応募ください。</p>
+            <button id="recruit_button">
+                <a href="">応募フォームへ</a>
+            </button>
+        </div>
+    </div>
+    <div class="content_blue">
+        <div class="title_white">
+            <h2>CONTACT</h2>
+            <hr>
+             <p>お問い合わせ</p>
+        </div>
+        <div id="qa">
+            <p>お仕事のご依頼・ご相談がある方は
+                <br>お気軽に連絡ください。
+                <br>下記のメールアドレスからも連絡は可能です。
+            </p>
+            <p class="imp">
+                ※件名は「お仕事の相談 依頼者名」でお願いしています
+            </p>
+            <h3>keisuke-kawano@scuba-diver.jp </h3>
+        </div>
+        <div id="button_info">
+            <a href="">お問い合わせ</a>
+        </div>
+    </div>
+    <footer>
+        <div id="footer01">
+            <img src="./image/logo_s.jpg">
+            <span></span>
+        </div>
+        <div id="footer02">
+            <div id="sns_content">
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                </a>
+                
+            </div>
+            <div id="sns_content">
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a>
+                
+            </div>
+            <div id="sns_content">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>facebook</p>
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
